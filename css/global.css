@@ -38,8 +38,10 @@ a {
 img {
   max-width: 100%;
   background-size: cover;
+  height: auto;
 }
 
 h2{
   color: var(--text-primary);
+  font-size: 54px;
 }

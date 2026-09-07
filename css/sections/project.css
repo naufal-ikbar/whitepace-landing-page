@@ -6,16 +6,8 @@
   row-gap: 32px;
 }
 
-.project-text h2{
-  font-size: 54px;
-}
 .project-text p{
   color: var(--text-primary);
-}
-
-
-.project .flex{
-  /* align-items: center; */
 }
 
 .project-image{
