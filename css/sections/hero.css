@@ -1,0 +1,16 @@
+.hero .flex{
+  column-gap: 3rem;
+}
+
+.hero-image{
+  flex-shrink: 0;
+}
+
+.hero-text h1{
+  font-size: 64px;
+  margin-top: 32px;
+}
+
+.hero-text p{
+  margin-block: 24px 60px;
+}

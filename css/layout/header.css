@@ -1,0 +1,32 @@
+header{
+  padding-top: 20px;
+}
+
+header nav .container.flex{
+  align-items: center;
+}
+
+header a.logo-whitepace{
+  flex-grow: 1;
+}
+
+header a.logo-whitepace img{
+  width: 150px;
+  height: auto;
+}
+
+ul.nav-menu li a{
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.nav-menu.flex{
+  margin-right: 60px;
+  column-gap: 32px;
+  align-items: center;
+}
+
+.nav-actions{
+  column-gap: 24px;
+}

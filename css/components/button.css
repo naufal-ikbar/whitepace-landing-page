@@ -1,0 +1,16 @@
+.btn-yellow {
+  background-color: #ffe492;
+  color: var(--primary);
+  padding: 16px 40px;
+  border-radius: 10px;
+}
+
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  padding: 16px 24px;
+  border-radius: 10px;
+  column-gap: 10px;
+  background-color: var(--primary-accent);
+  color: var(--white);
+}
