@@ -107,6 +107,29 @@
   }
 }
 
+@media screen and (max-width: 560px) {
+  .task-card,
+  .stats-card,
+  .list-card {
+    position: relative;
+    left: auto;
+    right: auto;
+    top: auto;
+    bottom: auto;
+    width: 100%;
+  }
+
+  .aside-visual {
+    display: grid;
+    gap: 1rem;
+    min-height: auto;
+  }
+
+  .aside-copy h2 {
+    font-size: 2.5rem;
+  }
+}
+
 @media screen and (max-width: 500px) {
   .hero-text h1 {
     font-size: 3rem;

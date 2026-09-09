@@ -7,4 +7,5 @@
 @import url(./sections/work.css);
 @import url(./sections/testimonial.css);
 @import url(./layout/footer.css);
-@import url(./media-query.css)
+@import url(./media-query.css);
+@import url(./layout/aside.css);
