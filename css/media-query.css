@@ -49,7 +49,7 @@
 
   .card-container article:nth-child(3) {
     flex-grow: 0;
-    flex-basis: 400px;
+    flex-basis: 500px;
   }
 }
 
