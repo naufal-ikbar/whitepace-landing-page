@@ -19,6 +19,7 @@ ul.nav-menu li a{
   display: flex;
   align-items: center;
   column-gap: 10px;
+  transition: 1.3ms;
 }
 
 .nav-menu.flex{
