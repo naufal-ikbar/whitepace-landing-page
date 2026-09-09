@@ -37,8 +37,9 @@ a {
 
 img {
   max-width: 100%;
-  background-size: cover;
   height: auto;
+  object-fit: cover;
+  object-position: center;
 }
 
 h2{
