@@ -281,20 +281,3 @@
 .bullet.green {
   background: #7ad39a;
 }
-
-@media screen and (max-width: 920px) {
-  .aside-panel {
-    flex-direction: column;
-    gap: 2rem;
-  }
-
-  .aside-copy,
-  .aside-visual {
-    width: 100%;
-    max-width: 100%;
-  }
-
-  .aside-visual {
-    min-height: 420px;
-  }
-}

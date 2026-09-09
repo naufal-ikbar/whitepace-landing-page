@@ -22,6 +22,10 @@ ul.nav-menu li a{
   transition: 1.3ms;
 }
 
+ul.nav-menu li a:hover{
+  color: var(--secondary);
+}
+
 .nav-menu.flex{
   margin-right: 60px;
   column-gap: 32px;
