@@ -1,5 +1,4 @@
 @media screen and (max-width: 1200px) {
-  /* header */
   header a.logo-whitepace {
     flex-grow: 0;
     flex-shrink: 0;
@@ -13,36 +12,37 @@
     justify-content: center;
   }
 
-  .nav-menu {
+ header nav .container .nav-menu {
     margin-right: 0;
   }
 
-  .hero-text {
+  header section.hero .hero-text {
     flex-shrink: 1;
   }
 
-  .project-text {
+  main section.project .project-text {
     flex-shrink: 2;
   }
 
-  .work-text {
+  main section.work .work-text {
     flex-shrink: 2;
   }
-  .hero-image {
+
+  header section.hero .hero-image {
     flex-shrink: 1;
   }
 
-  .project-image {
+  main section.project .project-image {
     flex-shrink: 1;
   }
 
-  .testimonial .card-container {
+  main section.testimonial .card-container {
     flex-wrap: wrap;
     justify-content: center;
     row-gap: 3rem;
   }
 
-  .card {
+  main section.testimonial .card-container .card {
     flex-basis: 300px;
     flex-grow: 1;
   }
@@ -54,21 +54,21 @@
 }
 
 @media screen and (max-width: 990px) {
-  .footer-content {
+  footer .container .footer-content {
     flex-wrap: wrap;
     row-gap: 3rem;
   }
 }
 
 @media (max-width: 880px) {
-  .aside-card {
+  aside .aside-card {
     flex-direction: column;
   }
-  .aside-image {
+  aside .aside-image {
     max-height: 320px;
     width: 100%;
   }
-  .aside-content {
+  aside .aside-content {
     padding: 1rem;
   }
 }
@@ -79,22 +79,22 @@
     text-align: center;
   }
 
-  .hero .container {
+  header section.hero .container {
     flex-wrap: wrap;
     justify-content: center;
     row-gap: 3rem;
   }
 
-  .project .container {
+  main section.project .container {
     flex-wrap: wrap;
     justify-content: center;
     row-gap: 3rem;
   }
-  .project-text {
+  main section.project .project-text {
     margin-top: 0;
   }
 
-  .work .container {
+  main section.work .container {
     flex-wrap: wrap;
     justify-content: center;
     row-gap: 3rem;
@@ -102,41 +102,41 @@
     flex-direction: column-reverse;
   }
 
-  .project-text {
+  main section.project .project-text {
     align-items: normal;
   }
-  .project-text a {
+  main section.project .project-text a {
     align-self: flex-start;
   }
 
-  .work-text {
+  main section.work .work-text {
     align-items: normal;
   }
-  .work-text a {
+  main section.work .work-text a {
     align-self: flex-start;
   }
-  .footer-content {
+  footer .container .footer-content {
     justify-content: center;
   }
 }
 
 @media screen and (max-width: 660px) {
-  .card-container article:nth-child(3) {
+  main section.testimonial .card-container article:nth-child(3) {
     flex-grow: 1;
     flex-basis: 0%;
   }
 
-  .work {
+  main section.work {
     padding-bottom: 0px;
   }
 }
 
 @media screen and (max-width: 500px) {
-  .hero-text h1 {
+  header section.hero .hero-text h1 {
     font-size: 3rem;
   }
 
-  .project-text h2 {
+  main section.project .project-text h2 {
     font-size: 2.5rem;
   }
 
@@ -144,21 +144,21 @@
     flex-direction: column;
     row-gap: 1.8rem;
   }
-  .nav-menu {
+  header nav .nav-menu {
     flex-direction: column;
     row-gap: 1.5rem;
   }
 
-  .nav-actions {
+  header nav .nav-actions {
     flex-direction: column;
     row-gap: 1rem;
   }
 
-  .footer-content {
+  footer .container .footer-content {
     justify-content: normal;
   }
 
-  .info-content {
+  footer .container .footer-content .info-content {
     flex-direction: column;
     row-gap: 2rem;
   }

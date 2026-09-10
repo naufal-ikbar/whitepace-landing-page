@@ -1,9 +1,9 @@
-.hero .container{
+header section.hero .container{
   display: flex;
   column-gap: 3rem;
 }
 
-.hero-image{
+header section.hero .hero-image{
   flex-shrink: 0;
 }
 

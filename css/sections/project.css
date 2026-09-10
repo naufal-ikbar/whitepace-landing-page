@@ -1,8 +1,8 @@
-.project .container{
+main section.project .container{
   display: flex;
 }
 
-.project-text{
+main section.project .project-text{
   margin-top: 100px;
   display: flex;
   flex-direction: column;
@@ -10,10 +10,10 @@
   row-gap: 32px;
 }
 
-.project-text p{
+main section.project .project-text p{
   color: var(--text-primary);
 }
 
-.project-image{
+main section.project .project-image{
   flex-shrink: 0;
 }

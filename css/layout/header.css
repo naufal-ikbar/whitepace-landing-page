@@ -1,40 +1,40 @@
-header{
+header {
   padding-top: 20px;
 }
 
-header nav .container{
+header nav .container {
   display: flex;
   align-items: center;
 }
 
-header a.logo-whitepace{
+header a.logo-whitepace {
   flex-grow: 1;
 }
 
-header a.logo-whitepace img{
+header a.logo-whitepace img {
   width: 150px;
   height: auto;
 }
 
-ul.nav-menu li a{
-  display: flex;
-  align-items: center;
-  column-gap: 10px;
-  transition: 1.3ms;
-}
-
-ul.nav-menu li a:hover{
-  color: var(--secondary);
-}
-
-.nav-menu{
+header nav .container .nav-menu {
   display: flex;
   margin-right: 60px;
   column-gap: 32px;
   align-items: center;
 }
 
-.nav-actions{
+ul.nav-menu li a {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  transition: 1.3ms;
+}
+
+ul.nav-menu li a:hover {
+  color: var(--secondary);
+}
+
+header nav .container .nav-actions {
   display: flex;
   column-gap: 24px;
 }
