@@ -1,3 +1,7 @@
+.project .container{
+  display: flex;
+}
+
 .project-text{
   margin-top: 100px;
   display: flex;

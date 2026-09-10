@@ -1,9 +1,14 @@
+.work{
+  padding-bottom: 5rem;
+}
+
 .work-image{
   flex-shrink: 0;
   flex-basis: 500px;
 }
 
-.work .flex{
+.work .container{
+  display: flex;
   column-gap: 5rem;
   align-items: center;
 }

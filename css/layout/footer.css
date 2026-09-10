@@ -3,6 +3,7 @@ footer {
 }
 
 .footer-content {
+  display: flex;
   column-gap: 100px;
 }
 
@@ -51,6 +52,7 @@ footer {
 }
 
 .info-content {
+  display: flex;
   column-gap: 100px;
 }
 

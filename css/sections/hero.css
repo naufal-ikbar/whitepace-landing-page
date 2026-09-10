@@ -1,4 +1,5 @@
-.hero .flex{
+.hero .container{
+  display: flex;
   column-gap: 3rem;
 }
 

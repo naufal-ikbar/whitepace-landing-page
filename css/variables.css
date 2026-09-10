@@ -1,10 +1,15 @@
-:root{
+:root {
   --primary: #043873;
-  --primary-accent: #4F9CF9;
+  --primary-accent: #4f9cf9;
 
-  --secondary:#FFE492;
-  --secondary-light: #A7CEFC;
+  --secondary: #ffe492;
+  --secondary-light: #a7cefc;
 
   --white: #ffffff;
   --text-primary: #212529;
+  
+  --aside-bg: #f7fbff;
+  --card-bg: #ffffff;
+  --muted: #6b7280;
+  --accent: #ffd166;
 }

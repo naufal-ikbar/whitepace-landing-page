@@ -2,7 +2,8 @@ header{
   padding-top: 20px;
 }
 
-header nav .container.flex{
+header nav .container{
+  display: flex;
   align-items: center;
 }
 
@@ -26,12 +27,14 @@ ul.nav-menu li a:hover{
   color: var(--secondary);
 }
 
-.nav-menu.flex{
+.nav-menu{
+  display: flex;
   margin-right: 60px;
   column-gap: 32px;
   align-items: center;
 }
 
 .nav-actions{
+  display: flex;
   column-gap: 24px;
 }
